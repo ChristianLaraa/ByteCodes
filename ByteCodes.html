@@ -11,6 +11,8 @@
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hover.css/css/hover-min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
     </head>
     <body>
         <header class="header">
@@ -35,7 +37,7 @@
                     <img src="images/FakeNews1.png">
                     <div class="content">
                         <p>ByteCodes</p>
-                        <h2> Identificador de FakeNews</h2>
+                        <h2> Identificador de Fake News</h2>
                         <p id="p2">
                         
                         </p>
@@ -84,8 +86,8 @@
             </div>
             <!-- button arrows -->
             <div class="arrows">
-                <button id="prev"><</button>
-                <button id="next">></button>
+                <button id="prev"></button>
+                <button id="next"></button>
             </div>
             <!-- thumbnail -->
             <div class="thumbnail">
@@ -174,8 +176,18 @@ thumbnails.forEach((thumbnail, index) => {
     })
 })
 </script>
+<div class = "container">
+    <div class="container">
+        <h2>Introduce un enlace</h2>
+        <form action="#" method="post">
+            <label for="enlace">Enlace:</label><br>
+            <input type="text" id="enlace" name="enlace" placeholder="https://example.com"><br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
 
 
+</div>
 
 
 
